@@ -1,0 +1,30 @@
+{
+  "name": "recomponents",
+  "version": "0.0.1",
+  "description": "Reusable components with a unified api / prop controllers",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leighs-hammer/recomponents.git"
+  },
+  "author": "Leigh Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leighs-hammer/recomponents/issues"
+  },
+  "homepage": "https://github.com/leighs-hammer/recomponents#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
