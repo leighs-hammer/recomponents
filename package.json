@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-watch": "mocha --require babel-core/register -w ./tests/*",
+    "test": "mocha --require babel-core/register -w ./tests/*"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,14 @@
   },
   "homepage": "https://github.com/leighs-hammer/recomponents#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "chai": "^4.1.2",
     "eslint": "^4.18.2",
+    "eslint-plugin-react": "^7.7.0",
     "mocha": "^5.0.4"
   },
   "dependencies": {
+    "babel-preset-env": "^1.6.1",
     "ramda": "^0.25.0"
   }
 }
